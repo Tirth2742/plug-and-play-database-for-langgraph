@@ -1,0 +1,23 @@
+# Database type: mongo, couchbase, postgres, etc.
+database_type: mongo
+
+# Connection settings for MongoDB
+mongo:
+  uri: "mongodb://localhost:27017/firstone?retryWrites=true&w=majority"
+  database: "agentchathistory"
+  collection: "agentchathistory"
+
+# Connection settings for Couchbase
+couchbase:
+  connection_string: "couchbases://cb.l3gufw6oqbfqfq.cloud.couchbase.com"
+  username: "firstone"
+  password: "5tLuGWK@6u6@Gb5"
+  bucket: "agentchathistory"
+
+# Connection settings for PostgreSQL (if needed in future)
+postgres:
+  host: "localhost"
+  port: 5432
+  database: "agentchathistory"
+  user: "postgres"
+  password: "password"
