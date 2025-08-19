@@ -17,19 +17,6 @@ No need to modify core logic — just configure your database and start saving c
 
 ---
 
-## 📂 Project Structure
-
-├── langgraph_database/
-│ ├── database_config.yaml # Database configuration file
-│ ├── data.py # Core logic (ChatHistoryModel + savechat)
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
 ## ⚙️ Configuration
 
 All database settings are managed in `langgraph_database/database_config.yaml`.
